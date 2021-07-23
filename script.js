@@ -4,7 +4,7 @@
 
 // Write your script in Javascript, and submit in a file called `script.js`.
 
-fetch('https://randomuser.me/api/?results=10')
+const getInfo = fetch('https://randomuser.me/api/?results=10')
     .then(response => response.json())
     .then(randomData => {
         console.log(randomData)
